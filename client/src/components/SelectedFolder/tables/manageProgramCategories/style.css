@@ -1,0 +1,74 @@
+div#program-subcategories-manager {
+    width: 95%;
+    margin: 2.5%;
+    border: solid rgb(24, 60, 52, 0.35) 2px;
+    border-radius: 5px;
+}
+
+span.program-subcategory-manager-head-col {
+    background-color: rgb(24, 60, 52, 0.8);
+    color: white;
+    text-align: center;
+    border-right: solid white 2px;
+}
+
+span.program-subcategory-manager-data-col {
+    color: rgb(24, 60, 52);
+    background-color: white;
+    border-bottom:  solid rgb(24, 60, 52, 0.35) 2px;
+    border-right:  solid rgb(24, 60, 52, 0.35) 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+span#program-subcategory-name-display-col-head {
+    width: 15%;
+}
+
+span#program-subcategory-parent-display-col-head {
+    width: 15%;
+}
+
+span#program-subcategory-description-display-col-head {
+    width: 55%;
+}
+
+span#program-subcategory-options-display-col-head {
+    width: 15%;
+}
+
+span.program-subcategory-name-display-col {
+    width: 15%;
+}
+
+span.program-subcategory-parent-display-col {
+    width: 15%;
+}
+
+span.program-subcategory-description-display-col {
+    width: 55%;
+}
+
+span.delete-program-subcategory-col {
+    width: 7.5%;
+    background-image: url(../../../../assets/outline-delete_forever-24px.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: rgb(104,54,165, 0.25);
+    border-bottom: solid rgb(24, 60, 52, 0.35) 2px;
+    border-right: solid rgb(24, 60, 52, 0.35) 2px;
+}
+
+span.view-program-subcategory-subcategories-col {
+    width: 7.5%;
+    /* background-image: url(../../../../assets/outline-lock-24px.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: rgb(104,54,165, 0.25);
+    border-bottom: solid rgb(24, 60, 52, 0.35) 2px;
+    border-right: solid rgb(24, 60, 52, 0.35) 2px;
+}

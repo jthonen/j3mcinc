@@ -1,0 +1,37 @@
+form.form-builder-form {
+    width: 100%;
+    height: 100%;
+    flex-flow: column;
+}
+
+span.form-builder-row {
+    width: 100%;
+    display: flex;
+}
+
+label.form-builder-label {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-builder-input {
+    width: 33.33%;
+}
+
+.form-builder-datalist-input {
+    width: 100%;
+}
+
+span.form-builder-submit-button-row {
+    justify-content: center;
+    align-items: center;
+}
+
+button#form-builder-submit-button {
+    width: 33.33%
+}
+
+button#form-builder-submit-button-locked {
+    width: 33.33%
+}

@@ -1,0 +1,45 @@
+div#filing-cabinet-folder-tabs-row {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    z-index: 10;
+}
+
+span.filing-cabinet-folder-tab {
+    flex: 1;
+    border: solid rgb(24, 60, 52) 2px;
+    line-height: 24px;
+    background-color: white;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: -2.25px 2.25px 0 rgb(24, 60, 52);
+    cursor: pointer;
+}
+
+span.filing-cabinet-folder-tab.tab-selected {
+    border-bottom: solid white .1px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: white;
+    box-shadow: none;
+    cursor: initial;
+}
+
+span.transparent-tab-layer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 60, 52, .25);
+}
+
+span.transparent-tab-layer.tab-selected {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: white;
+}

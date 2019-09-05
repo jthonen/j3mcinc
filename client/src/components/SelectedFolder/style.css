@@ -1,0 +1,68 @@
+div#selected-filing-cabinet-folder {
+    height: 90%;
+    background-color: white;
+    border-left: solid rgb(24, 60, 52) 2px;
+    border-right: solid rgb(24, 60, 52) 2px;
+    border-bottom: solid rgb(24, 60, 52) 2px;
+    z-index: 5;
+    overflow-y: scroll;
+    top: 0;
+}
+
+button.manage-view-head-button {
+    cursor: pointer;
+}
+
+div.manage-view {
+    overflow-y: hidden;
+}
+
+span.manage-view-head {
+    margin-top: 1%;
+    margin: 2.5%;
+    width: 95%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2.manage-view-head-text {
+    color: rgb(24, 60, 52);
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+ /*  */
+
+div#dashboard-manage-view {
+    overflow-y: hidden;
+}
+
+span#dashboard-manage-view-head {
+    margin-top: 1%;
+    margin: 2.5%;
+    width: 95%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2#dashboard-manage-view-head-text {
+    color: rgb(24, 60, 52);
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+button.manage-view-head-button {
+    width: 20%;
+    margin-left: 2%;
+}
+
+button.manage-view-head-button.add {
+    background-image: url(../../assets/outline-add_circle_outline-24px.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 5%;
+}

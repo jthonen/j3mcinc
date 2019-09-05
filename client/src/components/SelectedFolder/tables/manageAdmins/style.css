@@ -1,0 +1,99 @@
+div#admin-manager {
+    width: 95%;
+    margin: 2.5%;
+    border: solid rgb(24, 60, 52, 0.35) 2px;
+    border-radius: 5px;
+}
+
+button.add-new-admin-button {
+    width: 30%;
+    background-image: url(../../../../assets/outline-add_circle_outline-24px.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 5%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+
+span.admin-manager-head-col {
+    background-color: rgb(24, 60, 52, 0.8);
+    color: white;
+    text-align: center;
+    border-right: solid white 2px;
+}
+
+span.admin-manager-data-col {
+    color: rgb(24, 60, 52);
+    background-color: white;
+    border-bottom:  solid rgb(24, 60, 52, 0.35) 2px;
+    border-right:  solid rgb(24, 60, 52, 0.35) 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+span#name-display-col-head {
+    width: 25%;
+}
+
+span#username-display-col-head {
+    width: 39%;
+}
+
+span#authorization-display-col-head {
+    width: 15%;
+}
+
+span#options-display-col-head {
+    width: 21%;
+}
+
+span.name-display-col {
+    width: 25%;
+}
+
+span.username-display-col {
+    width: 39%;
+}
+
+span.authorization-display-col {
+    width: 15%;
+}
+
+span.delete-admin-col {
+    width: 7%;
+    background-image: url(../../../../assets/outline-delete_forever-24px.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: rgb(104,54,165, 0.25);
+    border-bottom: solid rgb(24, 60, 52, 0.35) 2px;
+    border-right: solid rgb(24, 60, 52, 0.35) 2px;
+}
+
+span.transfer-ownership-col {
+    width: 7%;
+    background-image: url(../../../../assets/outline-compare_arrows-24px.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: rgb(104,54,165, 0.25);
+    border-bottom: solid rgb(24, 60, 52, 0.35) 2px;
+    border-right: solid rgb(24, 60, 52, 0.35) 2px;
+}
+
+span.set-inactive-col {
+    width: 7%;
+    background-image: url(../../../../assets/outline-lock-24px.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: rgb(104,54,165, 0.25);
+    border-bottom: solid rgb(24, 60, 52, 0.35) 2px;
+    border-right: solid rgb(24, 60, 52, 0.35) 2px;
+}
+
+span.set-inactive-col.unlock {
+    background-image: url(../../../../assets/outline-lock_open-24px.svg);
+}
