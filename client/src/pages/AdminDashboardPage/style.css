@@ -1,0 +1,6 @@
+div#admin-dashboard-page {
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}

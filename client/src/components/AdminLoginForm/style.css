@@ -1,0 +1,54 @@
+form#admin-login-form {
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: .8;
+    box-shadow: 5px 5px 20px #9999;
+    border-radius: 5px;
+}
+
+section.admin-login-form-section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+section#admin-login-form-section-top {
+    justify-content: center;
+    height: 40%;
+}
+
+section#admin-login-form-section-bottom {
+    height: 60%;
+}
+
+h1#admin-login-form-header {
+    color: rgb(24, 60, 52);
+}
+
+input.admin-login-form-input {
+    width: 80%;
+    height: 25%;
+    padding-left: 5%;
+    border-radius: 1px;
+}
+
+button#login-button {
+    width: 80%;
+    margin-top: 5%;
+    height: 20%;
+    background-color: rgb(24, 60, 52);
+    color: white;
+    border-radius: 5px;
+}
+
+button#login-button.locked {
+    background-color: white;
+    border: none;
+    opacity: 80%;
+    color:  rgb(24, 60, 52);
+}

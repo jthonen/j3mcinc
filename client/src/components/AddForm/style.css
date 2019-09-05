@@ -1,0 +1,27 @@
+div#add-form {
+    height: 90%;
+    width: 95%;
+    margin: 2%;
+    position: absolute;
+    z-index: 15;
+    background-color:white;
+    box-shadow: 5px 5px 20px #9999;
+    border-radius: 5px;
+    border: solid rgb(24, 60, 52, 0.35) 2px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(24, 60, 52);
+    transition-property: all;
+	transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transform: translateX(0);
+}
+
+div#add-form.hide-form {
+    transform: translateX(105%);
+}
+
+button#close-add-form {
+    float: right;
+    cursor: pointer;
+}

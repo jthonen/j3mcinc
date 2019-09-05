@@ -1,0 +1,15 @@
+div.data-table {
+    width: 100%;
+}
+
+div.table-head-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+div.table-data-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
